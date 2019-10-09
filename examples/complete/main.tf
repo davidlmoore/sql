@@ -1,5 +1,6 @@
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
+  version = "~> 1.0"
 }
 
 variable "number_of_instances" {
